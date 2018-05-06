@@ -10,6 +10,8 @@ Summary: Brushes to be used with the MyPaint library
 License: CC0
 URL: https://github.com/Jehan/mypaint-brushes
 Source0: https://github.com/Jehan/mypaint-brushes/archive/v%{version}.tar.gz#/mypaint-brushes-%{version}.tar.gz
+Source100: %{name}.rpmlintrc
+
 Group: Graphics
 
 BuildArch: noarch
