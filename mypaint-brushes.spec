@@ -9,7 +9,8 @@ Summary: Brushes to be used with the MyPaint library
 # but the shipped brush files are CC0
 License: CC0
 URL: https://github.com/Jehan/mypaint-brushes
-Source0: https://github.com/Jehan/mypaint-brushes/archive/v%{version}.tar.gz#/mypaint-brushes-%{version}.tar.gz
+Source0: https://github.com/Jehan/mypaint-brushes/archive/v%{version}.tar.gz
+#/mypaint-brushes-v%{version}.tar.gz
 Source100: %{name}.rpmlintrc
 
 Group: Graphics
@@ -36,12 +37,12 @@ programs using these brush files.
 
 
 %prep
-%setup -q
+%setup   v%{version}.tar.gz
 
 
 %build
 ./autogen.sh
-%configure2_5x
+%configure
 %make
 
 %install
