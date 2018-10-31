@@ -2,7 +2,7 @@
 
 Name: mypaint-brushes
 Version: 1.3.0
-Release: 1
+Release: 2
 Summary: Brushes to be used with the MyPaint library
 
 # According to Licenses.dep5 the files used for building/installing are GPLv2+
