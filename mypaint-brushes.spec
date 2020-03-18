@@ -1,4 +1,4 @@
-%global mypaint_data_version 1.0
+%global mypaint_data_version 2.0
 
 Name: mypaint-brushes
 Version: 2.0.2
@@ -44,13 +44,10 @@ programs using these brush files.
 
 
 %files
-%doc AUTHORS NEWS README.md COPYING Licenses.dep5 Licenses.md
+%doc AUTHORS NEWS README COPYING
 %dir %{_datadir}/mypaint-data
 %dir %{_datadir}/mypaint-data/%{mypaint_data_version}
 %{_datadir}/mypaint-data/%{mypaint_data_version}/brushes
-# (tv) temp fix b/c of rpmlint rejecting the pkg:
-#exclude %{_datadir}/mypaint-data/1.0/brushes/ramon/100\%_Opaque*
-
 
 %files devel
 %doc COPYING Licenses.dep5 Licenses.md
