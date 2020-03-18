@@ -36,7 +36,6 @@ programs using these brush files.
 %setup   %{version}.tar.gz
 
 %build
-./autogen.sh
 %configure
 %make_build
 
@@ -56,6 +55,3 @@ programs using these brush files.
 %files devel
 %doc COPYING Licenses.dep5 Licenses.md
 %{_datadir}/pkgconfig/mypaint-brushes-%{mypaint_data_version}.pc
-
-
-
