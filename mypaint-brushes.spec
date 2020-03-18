@@ -50,5 +50,5 @@ programs using these brush files.
 %{_datadir}/mypaint-data/%{mypaint_data_version}/brushes
 
 %files devel
-%doc COPYING Licenses.dep5 Licenses.md
+%doc COPYING
 %{_datadir}/pkgconfig/mypaint-brushes-%{mypaint_data_version}.pc
