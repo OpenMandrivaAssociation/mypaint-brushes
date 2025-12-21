@@ -16,6 +16,8 @@ Group: Graphics
 
 BuildArch: noarch
 
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
 BuildRequires: autoconf
 BuildRequires: automake
 BuildRequires: pkgconfig(glib-2.0)
